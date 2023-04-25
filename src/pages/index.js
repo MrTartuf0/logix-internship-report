@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import panorama from '/img/panorama.jpg';
 
 import styles from './index.module.css';
 
@@ -33,7 +34,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        
+        <img src={panorama} alt="Panorama"/>
       </main>
     </Layout>
   );

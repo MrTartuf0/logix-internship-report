@@ -3,40 +3,59 @@ sidebar_position: 0
 sidebar_label: "Routing statico e dinamico"
 ---
 
-# Routing statico e routing dinamico
+# HEADING 1
+## HEADING 2
+### HEADING 3
 
-![Differenze](/img/differences.jpg)
+immagine
+<!-- ![Differenze](/img/differences.jpg) -->
 
+**grassetto**
 
-Si è detto che il **routing** è il processo usato dal router per individuare l’interfaccia di uscita su cui rilanciare i pacchetti verso la destinazione che viene individuata in base al valore dell’IP address confrontandolo con i dati presenti nella tabella di routing.
-
-Lo scopo ultimo di un protocollo di routing consiste nel creare una tabella di instradamentoin ciascun nodo della rete in modo che esso possa prendere la decisione locale sulla base della conoscenza dello stato dell’intera rete: questa è la “difficoltà principale” del routing.
-
-:::tip Attenzione
-Nella tabella sono presenti i possibili percorsi verso le reti remote: questi dati devono essere inseriti e memorizzati nel dispositivo e mantenuti costantemente aggiornati
+:::tip Consiglio
+    Ipsum deserunt aliqua id eu consequat qui nisi esse nisi quis sint aliqua nostrud dolor.
 :::
 
-Esistono due modalità per creare e gestire le tabelle di routing:
+## Lista
 
-- **routing statico** (static routing): la configurazione viene effettuata dall’amministratore della rete;
-- **routing dinamico** (dynamic routing): le informazioni vengono ricevute dagli altri router.
+- **Elemento 1** testo
+- **Elemento 2** testo
 
-Nel routing statico le operazioni possono essere divise in tre parti:
+## Lista numerata
 
 1. l’amministratore di rete individua la route manualmente;
 2. “installa” questa route nelle routing table;
 3. i pacchetti sono inoltrati usando la route statica.
 
-Questa non è una tecnica scalabile e in caso di mo-difiche nella topologia di rete è necessario che l’ammi-nistratore apporti sempre manualmente le opportune variazioni alla configurazione delle route statiche: di fatto questo è un problema nella gestione di reti di grandi dimensioni
-
-Titolo
-: ciao
 
 ```txt title="Sistema Scalabile"
 Un sistema è scalabile se può essere adattato a diversi contesti con forti diffe
 renze di complessità senza che questo richieda la riprogettazione dello stesso sistema
 ```
 
-Gli algoritmi che implementano il routing statico sono di tipo non adattivo in quanto le decisioni di routing sono prese in anticipo, all’avvio della rete, e comunicate ai router che poi vi si attengono sempre.
+## Tabella 
 
-Nel routing dinamico le decisioni di routing sono riformulate molto spesso in quanto le tabelle sono in continuo aggiornamento in tempo reale in base al traffico, alla topologia della rete ecc.
+|   DA   |      VERSO      |    LINK    |   COSTO   |   NUMERO DI SEQUENZA  |
+|:-:|:-:|:-:|:-:|:-:|
+| A | B | 1 | 1 | 1 | 
+| A | D | 3 | 1 | 1 | 
+| B | A | 1 | 1 | 1 | 
+| B | C | 2 | 1 | 1 | 
+| B | E | 4 | 1 | 1 | 
+| C | B | 2 | 1 | 1 | 
+| C | E | 5 | 1 | 1 | 
+| D | A | 3 | 1 | 1 | 
+| D | E | 6 | 1 | 1 | 
+| E | B | 4 | 1 | 1 | 
+| E | C | 5 | 1 | 1 | 
+| E | D | 6 | 1 | 1 | 
+
+
+
+:::danger Pericolo
+Amet fugiat ea ex incididunt velit excepteur.
+:::
+
+## Linea al lato
+> Un grafo può essere rappresentato dalla sua matrice di adiacenza A, di dimensioni |V|x|V|, il cui generico elemento aij è definito nel modo seguente
+

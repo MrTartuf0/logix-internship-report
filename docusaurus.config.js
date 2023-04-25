@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://router-docs.netlify.app/',
+  url: 'https://logix-intership-report.netlify.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/MrTartuf0/routing-docs/tree/master/',
+            'https://github.com/MrTartuf0/logix-internship-report/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/MrTartuf0/routing-docs',
+            'https://github.com/MrTartuf0/logix-internship-report',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,20 +64,20 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Routing Docs',
+        title: 'Home',
         logo: {
-          alt: 'Router logo',
-          src: 'img/router.png',
+          alt: 'Logix logo',
+          src: 'img/logix.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Guida',
+            label: 'Logix Internship Report',
           },
           {
-            href: 'https://github.com/MrTartuf0/routing-docs',
+            href: 'https://github.com/MrTartuf0/logix-internship-report',
             label: 'GitHub',
             position: 'right',
           },
@@ -85,7 +85,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Routing Docs, Built with ❤️ by √italiy.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Logix Internship Report, Built with ❤️ by √italiy.`,
       },
       prism: {
         theme: lightCodeTheme,

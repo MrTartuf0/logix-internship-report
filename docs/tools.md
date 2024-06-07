@@ -99,6 +99,28 @@ Netlify is a cloud-based hosting and deployment platform for modern web projects
 </div>
 
 
+## Git & Github
+<div style={{ display : 'flex', gap: '4em' }}>
+<div style={{ flex : '1' }}>       
+Git is a distributed version control system used for tracking changes in source code during software development, enabling multiple developers to work on a project simultaneously without overwriting each other's changes. GitHub is a web-based platform that utilizes Git for version control and collaboration, hosting repositories and providing tools for project management, issue tracking, and continuous integration, making it a popular choice for open-source and private software development projects.
+</div>        
+<div style={{ flex : '1' }}>        
+
+![net](/img/github.jpg)
+</div>        
+</div>
+
+## Ionic
+<div style={{ display : 'flex', gap: '4em' }}>
+<div style={{ flex : '1' }}>       
+Ionic is an open-source framework for building cross-platform mobile applications using web technologies like HTML, CSS, and JavaScript. It allows developers to create high-quality mobile apps that work on both iOS and Android platforms from a single codebase. Ionic leverages the capabilities of web frameworks such as Angular, React, and Vue, and uses the Cordova or Capacitor plugins to access native device features like the camera, GPS, and file system. This approach simplifies development and maintenance while providing a native-like user experience.
+</div>        
+<div style={{ flex : '1' }}>        
+
+![net](/img/ionic.png)
+</div>        
+</div>
+
 
 
 

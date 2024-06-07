@@ -44,9 +44,10 @@ Following the successful completion of my previous project, Luca assigned me ano
 
 ![call](/img/call.png)
 ![login](/img/login.png)
+![call to](/img/inspiration.png)
 
 During my work on the previous project, I became intrigued by the design and functionality of the footer's countdown clock on the official Paris 2024 Olympics website (https://www.paris2024.org/en/sport/sport-climbing/). I was particularly impressed with the smooth and captivating animation of the seconds ticking away. As a result, I decided to take on the challenge of replicating the same animation and design for my own project. Through this process, I developed a deeper understanding of front-end animation techniques and honed my skills in user interface design. Overall, this project provided me with a valuable opportunity to practice my skills and explore new techniques in a professional setting.
 
 ![count](/img/count.png)
-
+![work](/img/work.png)
 
